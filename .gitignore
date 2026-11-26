@@ -8,3 +8,14 @@ app/build/
 app/.env
 app/.env.local
 app/.env.*.local
+
+infra/.terraform/
+infra/*.tfstate
+infra/.tfstate.
+infra/crash.log
+infra/override.tf
+infra/*_override.tf
+infra/secret.tfvars
+.vscode/
+.idea/
+.gitignore
