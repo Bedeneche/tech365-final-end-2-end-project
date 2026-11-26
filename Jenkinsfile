@@ -7,10 +7,7 @@ pipeline{
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
     
-    tools {
-        nodejs 'node18'
-        jdk 'jdk17'
-    }
+  
      stages{
         stage ('Checkout Code'){
             steps {
