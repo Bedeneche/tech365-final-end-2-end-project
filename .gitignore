@@ -1,0 +1,10 @@
+app/node_modules/
+app/logs
+app/*.log
+app/npm-debug.log*
+app/yarn-debug.log*
+app/dist/
+app/build/
+app/.env
+app/.env.local
+app/.env.*.local
